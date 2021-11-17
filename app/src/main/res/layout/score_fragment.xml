@@ -48,7 +48,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
             android:fontFamily="sans-serif"
-            android:textColor="@color/black_text_color"
+            android:textColor="@android:color/holo_blue_dark"
             android:textSize="34sp"
             android:textStyle="normal"
             app:layout_constraintBottom_toTopOf="@+id/play_again_button"
@@ -70,6 +70,38 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/your_last_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="264dp"
+            android:fontFamily="sans-serif"
+            android:text="Last Word"
+            android:textColor="#020202"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/play_again_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/last_Word_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="176dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toTopOf="@+id/play_again_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/score_text"
+            app:layout_constraintVertical_bias="0.666"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="words" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
